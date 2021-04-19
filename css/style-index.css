@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    
+}
+
+.post-index{
+    display:flex;
+    justify-content: center;     
+   
+}
+
+.card {
+    
+    width: 60%;
+    background-color: rgb(253, 253, 253);
+    border: 1px solid #ccc;
+    margin:auto;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+
+}
+
+.post-image img {
+    width: 100%;
+}
+
+.post-owner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.post-owner img {
+    width: 10%;
+    margin: 10px;
+}
+
+.post-owner .more-details {
+    padding: 7px;
+    max-width: 50px;
+}
+
+.post {
+    padding:.5rem;
+    
+}
+
+.post-text {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.likes {
+    display:flex;
+    align-items: center;
+   
+}
+
+.likes strong {
+    padding-left: 10px;
+}
+
+.post-text p {
+    margin: 0;
+}
+
+.post-footer{
+    display: flex;
+    border: 1px solid #ccc;
+    
+    
+}
+.post-footer input {
+    width: 100%;
+    height: 50px;
+    border:0;
+    padding:10px;
+}
+
+.post-footer button {
+    border:0;
+    color:blue;
+    font-weight: 550;
+}

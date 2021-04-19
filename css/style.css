@@ -46,23 +46,3 @@ main {
     width: 100%;
     border: none;
 }
-
-.banner_conectar {
-    border: 1px solid #ccc;
-    width: 100%;
-    text-align: center;
-}
-
-p {
-   font-size: 14px; 
-}
-
-a {
-    color: black;
-    font-weight: 700;
-}
-
-.cta-cadastro a {
-    color: black;
-    font-weight: 700;
-}
